@@ -69,4 +69,23 @@ button{
     border-radius: 5px;
 }
 
+@media(max-width: 480px){
+    body{
+        width: 100%;
+        height: 110vh;
+        background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    }
 
+    #layout{
+     width: 65vw;
+    height: 40vh;
+
+    }
+
+    form{
+        align-items: center;
+    }
+}
